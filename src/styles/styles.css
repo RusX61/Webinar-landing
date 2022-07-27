@@ -1,0 +1,80 @@
+html{
+    position: relative;
+    width: 1920px;
+    height: 3710px;
+    background: #FFFFFF;
+}
+
+header{
+    position: absolute;
+    width: 1922px;
+    height: 802px;
+    left: -1px;
+    top: -1px;
+}
+
+.headerBackground{
+    position: absolute;
+    width: 1920px;
+    height: 800px;
+    left: 0px;
+    top: 2px;
+    /* background: url(Rectangle 1.jpg); */
+}
+
+.logo{
+    position: absolute;
+    width: 83px;
+    height: 71px;
+    left: 920px;
+    top: 40px;
+}
+
+.logoImg{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: url(src/img/photo.jpg.png);
+}
+
+.logoText{
+    position: absolute;
+    width: 201px;
+    height: 24px;
+    left: 860px;
+    top: 120.5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F9BF3B;
+}
+
+#h2-1{
+    position: absolute;
+    width: 780px;
+    height: 41px;
+    left: 573px;
+    top: 197.5px;
+}
