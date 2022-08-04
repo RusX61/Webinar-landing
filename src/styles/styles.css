@@ -48,27 +48,32 @@ header{
     display:inline-block;
     text-align: center;
     margin-top: 53px;
-    width: 790px;
+    width: 100vw;
     font-weight: 900;
     font-size: 41px;
     line-height: 41px;
     text-transform: uppercase;
     color: #F9BF3B;
 }
-
+/* 
 .lines{
     margin-top: 20px;
-}
+} */
 
-.lineBefore, .lineAfter{
+/* .lineBefore, .lineAfter{
     display: inline-block;
     width: 292px;
     height: 2px;
     background: #FFFFFF;
-}
+} */
 
 .simple{
-    width: 547px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100vw;
     height: 59px;
     font-weight: 900;
     font-size: 80px;
@@ -77,10 +82,24 @@ header{
     color: #FFFFFF;
 }
 
+.simple::before, .simple::after{
+    content: '';
+    position: absolute;
+    margin-left: -310px;
+    margin-top: 40px;
+    width: 292px;
+    height: 2px;
+    background: #FFFFFF;
+}
+
+.simple::after{
+    margin-left: 20px;
+}
+
 .correct{
     display:inline-block;
     margin-top: 20px;
-    width: 958px;
+    width: 100vw;
     height: 41px;
     font-weight: 900;
     font-size: 41px;
@@ -149,7 +168,7 @@ header{
 }
 
 .intensive{
-    /* width: 1140px; */
+    width: 100vw;
     padding-bottom: 186px;
     margin-left: auto;
     margin-right: auto;
