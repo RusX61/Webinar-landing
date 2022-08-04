@@ -1,12 +1,20 @@
 @font-face {
     font-family: 'Roboto';
+    src: url(../fonts/Roboto.ttf); 
+}
+
+@font-face {
+    font-family: 'RobotoBold';
     src: url(../fonts/Robotobold.ttf); 
-   }
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url(../fonts/Robotothin.ttf); 
+}
 
 body{
     background: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
     width: 99vw;
     height: 100%;
     max-width: 1920px;
@@ -14,21 +22,21 @@ body{
 
 header{
     background-image: url("../img/main_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #000000;
+    font-family: 'RobotoBold';
+    font-style:normal;
     width: 98.5vw;
     height: 100%;
     display:block;
     text-align: center;
 }
 
-main{
-    margin-left: 391px;
-    margin-right: 391px;
-}
-
 .logoText{
     height: 24px;
     font-size: 15px;
+    font-family: 'Roboto';
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0px;
@@ -86,13 +94,15 @@ main{
     margin-top: 23px;
     width: 1144px;
     height: 77px;
-    font-weight: 300;
+    font-family: 'RobotoThin';
+    font-weight: 100;
     font-size: 21px;
     line-height: 28px;
     color: #FFFFFF;
 }
 
 .free{
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 21px;
     line-height: 28px;
@@ -107,7 +117,8 @@ main{
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
     border: none;
-    font-family: 'RobotoCondensed';
+    cursor: pointer;
+    font-family: 'Roboto';
     font-size: 21px;
     line-height: 24px;
     text-transform: uppercase;
@@ -120,30 +131,82 @@ main{
     margin-top: 71px;
     width: 264px;
     height: 24px;
+    font-family: 'RobotoThin';
     font-weight: 100;
     font-size: 15px;
     line-height: 24px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffffb0;
 }
 
 .down{
     display:inline-block;
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 33px;
+    padding-bottom: 33px;
     width: 30px;
     height: 19px;
 }
 
+.intensive{
+    /* width: 1140px; */
+    padding-bottom: 186px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F2F2F2;
+    font-family: 'Roboto';
+}
+
 .what{
-    display:inline-block;
-    text-align: center;
-    margin-top: 88px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 88px;
     width: 582px;
     height: 23px;
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
     text-transform: uppercase;
+}
+
+.separator{
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 7px;
+    margin-top: 18px;
+    background: #F9BF3B;
+}
+
+.freeWebinars{
+   text-align: center;
+    margin-top: 51px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    color: #4A4A4A;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    column-gap: 48px;
+    margin-top: 46px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.textSkills{
+    width: 342px;
+    height: 201px;
+    font-family: 'Roboto';
+    color: #4A4A4A;
+    text-align: center;
+}
+
+.skills img{
+    margin-bottom: 26px;
 }
