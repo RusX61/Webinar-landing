@@ -15,7 +15,7 @@
 
 body{
     background: #FFFFFF;
-    width: 99vw;
+    width: 100vw;
     height: 100%;
     max-width: 1920px;
 }
@@ -27,7 +27,7 @@ header{
     background-color: #000000;
     font-family: 'RobotoBold';
     font-style:normal;
-    width: 98.5vw;
+    width: 100vw;
     height: 100%;
     display:block;
     text-align: center;
@@ -55,17 +55,6 @@ header{
     text-transform: uppercase;
     color: #F9BF3B;
 }
-/* 
-.lines{
-    margin-top: 20px;
-} */
-
-/* .lineBefore, .lineAfter{
-    display: inline-block;
-    width: 292px;
-    height: 2px;
-    background: #FFFFFF;
-} */
 
 .simple{
     position: relative;
@@ -228,4 +217,187 @@ header{
 
 .skills img{
     margin-bottom: 26px;
+}
+
+.optimaze{
+    max-width: 100vw;
+    min-height: 502px;
+    margin-top: 47px;
+    margin-left: 150px;
+    background-image: url("../img/woman_bg.png");
+    background-repeat: no-repeat;
+}
+
+.txtOptimaze{
+    max-width: 773px;
+    margin-top: 61px;
+    margin-left: 630px;
+    margin-bottom: 74px;
+}
+
+.txtOptimaze h2{
+    font-family: 'RobotoBold';
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    color: #299CBD;
+}
+
+.txtOptimaze p{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.txtOptimaze b{
+    font-family: 'RobotoBold';
+}
+
+.endOfLearning{
+    background-image: url("../img/second_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.endOfLearning h2{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #EFEFEF;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 86px;
+    margin-top: 0;
+}
+
+.rectangle{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 39px;
+    width: 220px;
+    height: 7px;
+    margin-top: 18px;
+    background: #F9BF3B;
+
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'RobotoThin';
+    color: #EFEFEF;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.siteBlog, .rightOptimaze, .top, .stable, .income{
+    width: 230px;
+    margin-bottom: 90px;
+}
+
+.backCircle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #B4E2FF;
+    width: 118px;
+    height: 118px;
+    border-radius: 50%; 
+}
+
+.present{
+    width: 100vw;
+    display:block;
+    text-align: center;
+    background: #EFEFEF;
+}
+
+.gift{
+   padding-top: 85px;
+   margin-bottom: 45px;
+}
+
+.giftTxt{
+    max-width: 1161px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -21px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    color: #252525;
+}
+.present .btn{
+    margin-bottom: 88px;
+}
+
+.firstImg{
+    margin-top: 89px;
+    margin-bottom: 36px;
+    display:block;
+    text-align: center;
+}
+
+.webinar{
+    width: 100vw;
+}
+
+.firstWebinar{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #252525;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sep{
+    font-family: 'RobotoBold';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+    margin-bottom: 25px;
+}
+
+.late{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-bottom: 52px;
+}
+
+footer{
+    padding-top: 57px;
+    width: 100vw;
+    height: 169px;
+    background:#1A1A1A;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #888888;
+}
+
+.underLine{
+    text-decoration-line: underline;
 }
