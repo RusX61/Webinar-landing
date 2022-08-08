@@ -19,7 +19,7 @@
              И только единицы из них становятся популярными и приносят ощутимую прибыль.
               В чем секрет? В чем формула успеха? Узнайте на предстоящем двухдневном  
               <span class="free">БЕСПЛАТНОМ</span> интенсиве!</div>
-        <div><button  class="btn">Записаться на интенсив!</button></div>
+        <div><button class="btn" type="submit"><a href="#iw-modal" id="iw-modal-btn">Записаться на интенсив!</a></button></div>
         <div class="more">узнать больше об интенсиве</div>
         <div ><img src="src/img/down.png" alt="down" class="down"></div>
     </header>
@@ -86,7 +86,7 @@
                 Нажимайте на кнопку ниже, принимайте участие в вебинарах и 
                 забирайте свой приз по окончании обучения!
             </div>
-            <button class="btn">Записаться на интенсив!</button>
+            <button class="btn" type="submit"><a href="#iw-modal" id="iw-modal-btn">Записаться на интенсив!</a></button>
         </section>
         <section class="webinar">
             <div class="firstImg"><img src="src/img/first.png" alt="first"></div>
@@ -94,6 +94,36 @@
             <div class="sep">10 сентября в 20:00 по Москве</div>
             <div class="late">Успейте записаться, количество мест ограничено!</div>
         </section>
+        <section class="regForm"></section>
+        <div id="iw-modal" class="iw-modal">
+            <div class="iw-modal-wrapper">
+                <div class="iw-CSS-modal-inner">
+                    <div class="iw-modal-header">
+                        <h3 class="iw-modal-title">Заполните форму регистрации</h3>
+                    <div class="iw-modal-text"> 
+                        <a href="#close" title="Закрыть" class="iw-close">x</a>
+                        <div class="inputs">   
+                            <label for="name">
+                                <input type="text" placeholder="Введите имя">
+                            </label><br>
+                            <label for="fName">
+                                <input type="text" placeholder="Введите фамилию">
+                            </label><br>
+                            <label for="email">
+                                <input type="email" placeholder="Введите E-Mail">
+                            </label><br>
+                            <label for="phone">
+                                <input type="number" placeholder="Введите телефон">
+                            </label><br>
+                        </div>
+                        <div class="send">
+                            <button type="submit" class="formBtn">Отправить</button>
+                            <button type="reset" class="formBtn">Очистить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>	
+        </div>
     </main>
     <footer><div><span class="underLine">Служба поддержки</span> | <span class="underLine">
         nолитика конфиденциальности</span><br>Позвоните нам 8-800-555-01-21</div>
