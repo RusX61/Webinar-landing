@@ -1,0 +1,46 @@
+@media (min-width: 550px) {
+    .iw-modal-wrapper {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 1479px) {
+    .optContainer{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1366px) {
+    .optimizationText{
+      margin-left: -300px; 
+      margin-right: 50px; 
+    }
+}
+
+@media (max-width: 1280px) {
+    .optContainer{
+        margin-top: 0px;
+        margin-left: -80px;
+    }
+
+    .optimizationText span{
+        line-height: 26px;
+        font-size: 17px;
+    }
+
+    .optimizationText h2{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1024px) {
+      .optimizationText span{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .optimizationText h2{
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+}

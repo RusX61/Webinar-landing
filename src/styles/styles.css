@@ -1,23 +1,9 @@
-@font-face {
-    font-family: 'Roboto';
-    src: url(../fonts/Roboto.ttf); 
-}
-
-@font-face {
-    font-family: 'RobotoBold';
-    src: url(../fonts/Robotobold.ttf); 
-}
-
-@font-face {
-    font-family: 'RobotoThin';
-    src: url(../fonts/Robotothin.ttf); 
-}
-
 body{
     background: #FFFFFF;
     width: 100vw;
     height: 100%;
     max-width: 1920px;
+    overflow-x: hidden;
 }
 
 header{
@@ -52,6 +38,8 @@ input{
     border-radius: 15px;
 }
 
+/* первый экран */
+
 .logoText{
     height: 24px;
     font-size: 15px;
@@ -69,8 +57,8 @@ input{
     margin-top: 53px;
     width: 100vw;
     font-weight: 900;
-    font-size: 41px;
-    line-height: 41px;
+    font-size: 40px;
+    line-height: 40px;
     text-transform: uppercase;
     color: #F9BF3B;
 }
@@ -82,7 +70,7 @@ input{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100vw;
-    height: 59px;
+    height: 60px;
     font-weight: 900;
     font-size: 80px;
     line-height: 80px; 
@@ -108,17 +96,17 @@ input{
     display:inline-block;
     margin-top: 20px;
     width: 100vw;
-    height: 41px;
+    height: 40px;
     font-weight: 900;
-    font-size: 41px;
-    line-height: 41px;
+    font-size: 40px;
+    line-height: 40px;
     text-transform: uppercase;
     color: #F9BF3B;
 }
 
 .introTxt{
     display:inline-block;
-    margin-top: 23px;
+    margin-top: 24px;
     width: 1144px;
     height: 77px;
     font-family: 'RobotoThin';
@@ -131,7 +119,7 @@ input{
 .free{
     font-family: 'Roboto';
     font-weight: 700;
-    font-size: 21px;
+    font-size: 20px;
     line-height: 28px;
     text-transform: uppercase;
     color: #F9BF3B;
@@ -139,14 +127,14 @@ input{
 
 .btn{
     margin-top: 72px;
-    width: 313px;
+    width: 312px;
     height: 72px;
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
     border: none;
     cursor: pointer;
     font-family: 'Roboto';
-    font-size: 21px;
+    font-size: 20px;
     line-height: 24px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -156,12 +144,12 @@ input{
 
 .more{
     display:inline-block;
-    margin-top: 71px;
+    margin-top: 72px;
     width: 264px;
     height: 24px;
     font-family: 'RobotoThin';
     font-weight: 100;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 24px;
     text-transform: uppercase;
     color: #ffffffb0;
@@ -171,14 +159,16 @@ input{
     display:inline-block;
     text-align: center;
     margin-top: 5px;
-    padding-bottom: 33px;
-    width: 30px;
-    height: 19px;
+    padding-bottom: 32px;
+    width: 32px;
+    height: 20px;
 }
+
+/* Что вас ждет в нашем интенсиве? */
 
 .intensive{
     width: 100vw;
-    padding-bottom: 186px;
+    padding-bottom: 188px;
     margin-left: auto;
     margin-right: auto;
     background: #F2F2F2;
@@ -189,8 +179,8 @@ input{
     margin-left: auto;
     margin-right: auto;
     padding-top: 88px;
-    width: 582px;
-    height: 23px;
+    width: 584px;
+    height: 24px;
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
@@ -201,18 +191,18 @@ input{
     margin-left: auto;
     margin-right: auto;
     width: 220px;
-    height: 7px;
-    margin-top: 18px;
+    height: 8px;
+    margin-top: 20px;
     background: #F9BF3B;
 }
 
 .freeWebinars{
     text-align: center;
-    margin-top: 51px;
+    margin-top: 52px;
     height: 20px;
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 23px;
+    font-size: 24px;
     line-height: 20px;
     color: #4A4A4A;
 }
@@ -221,59 +211,75 @@ input{
     display: flex;
     justify-content: center;
     column-gap: 48px;
-    margin-top: 46px;
+    margin-top: 48px;
     font-weight: 300;
     font-size: 15px;
-    line-height: 21px;
+    line-height: 20px;
 }
 
 .textSkills{
-    width: 342px;
-    height: 201px;
+    width: 344px;
+    height: 200px;
     font-family: 'Roboto';
     color: #4A4A4A;
     text-align: center;
 }
 
 .skills img{
-    margin-bottom: 26px;
+    margin-bottom: 28px;
 }
 
-.optimaze{
+/* Что такое оптимизация и зачем она нужна? */
+
+.optContainer{
+    max-width: 1379px;
     display: flex;
-    align-items: center;
-    height: 502px;
-    margin-top: 47px;
-    background-image: url("../img/woman_bg.png");
-    background-repeat: no-repeat;
-}
-
-.txtOptimaze{
-    width: 773px;
-    margin-top: 61px;
-    padding-left: 630px;
+    max-height: 500px;
+    margin-top: 48px;
+    margin-left: 7.8%;
     margin-bottom: 74px;
 }
 
-.txtOptimaze h2{
+.girl img{
+    margin-top: 72px;
+}
+
+
+.optimizationText{
+    justify-content:right;
+    margin-left: -200px;
+    
+}
+
+.optimizationText span{
+    max-width: 752px;
+    height: 312px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+   
+}
+
+.optimizationText h2{
+    max-width: 772px;
+    height: 32px;
+    margin-top: 60px;
+    padding-bottom: 25px;
     font-family: 'RobotoBold';
+    text-transform: uppercase;
     font-weight: 900;
     font-size: 30px;
     line-height: 30px;
     color: #299CBD;
 }
 
-.txtOptimaze p{
-    font-family: 'Roboto';
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 27px;
-    color: #4A4A4A;
-}
-
-.txtOptimaze b{
+.optimizationText b{
     font-family: 'RobotoBold';
 }
+
+/* По окончании обучения Вы сможете! */
 
 .endOfLearning{
     background-image: url("../img/second_bg.png");
@@ -290,17 +296,17 @@ input{
     color: #EFEFEF;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 86px;
+    padding-top: 88px;
     margin-top: 0;
 }
 
 .rectangle{
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 39px;
+    margin-bottom: 40px;
     width: 220px;
-    height: 7px;
-    margin-top: 18px;
+    height: 8px;
+    margin-top: 20px;
     background: #F9BF3B;
 
 }
@@ -317,9 +323,9 @@ input{
     line-height: 20px;
 }
 
-.siteBlog, .rightOptimaze, .top, .stable, .income{
-    width: 230px;
-    margin-bottom: 90px;
+.skill{
+    width: 232px;
+    margin-bottom: 92px;
 }
 
 .backCircle{
@@ -329,10 +335,12 @@ input{
     margin-left: auto;
     margin-right: auto;
     background: #B4E2FF;
-    width: 118px;
-    height: 118px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%; 
 }
+
+/* Для всех участников интенсива */
 
 .present{
     width: 100vw;
@@ -342,16 +350,16 @@ input{
 }
 
 .gift{
-   padding-top: 85px;
-   margin-bottom: 45px;
+   padding-top: 84px;
+   margin-bottom: 44px;
 }
 
 .giftTxt{
-    max-width: 1161px;
+    max-width: 1160px;
     display:block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -21px;
+    margin-bottom: -22px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 30px;
@@ -363,11 +371,13 @@ input{
 }
 
 .firstImg{
-    margin-top: 89px;
+    margin-top: 88px;
     margin-bottom: 36px;
     display:block;
     text-align: center;
 }
+
+/* Первый вебинар состоится */
 
 .webinar{
     width: 100vw;
@@ -392,7 +402,7 @@ input{
     text-align: center;
     text-transform: uppercase;
     color: #299CBD;
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 
 .late{
@@ -406,9 +416,9 @@ input{
 }
 
 footer{
-    padding-top: 57px;
+    padding-top: 56px;
     width: 100vw;
-    height: 169px;
+    height: 168px;
     background:#1A1A1A;
     font-family: 'Roboto';
     font-weight: 300;
@@ -421,6 +431,8 @@ footer{
 .underLine{
     text-decoration-line: underline;
 }
+
+/* Форма */
 
 .iw-modal-btn{
     height: 100%;
@@ -438,7 +450,7 @@ footer{
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 9999;
+    z-index: 9;
     transition: all 0.5s ease;
     margin: 0;
     padding: 0;
@@ -472,32 +484,6 @@ footer{
 
 .iw-modal-title {
     font-size: 18px; 
-    color:#555; 
-    font-weight:bold; 
-    line-height: 1.5;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-    /*CSS для кнопки закрытия*/
-.iw-close {
-    position:absolute;
-    top:10px; 
-    right:10px; 
-    color: #000000; 
-    font-size: 24px; 
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.iw-close:hover, .iw-close:focus {
-    margin-top: auto;
-    color: #000; 
-    cursor: pointer;
-}
-
-.iw-modal-title {
-    font-size: 18px; 
     color:rgb(70, 70, 70); 
     font-weight:bold; 
     line-height: 1.5; 
@@ -525,13 +511,6 @@ footer{
     background-color: whitesmoke;
 }
 
-    /**MEDIA**/
-@media (min-width: 550px) {
-    .iw-modal-wrapper {
-        max-width: 500px;
-    }
-}
-
 .send{
 display: flex;
 flex-direction:row;
@@ -542,7 +521,7 @@ flex-direction:row;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
     border: none;
     margin: 20px;
-    border-radius: 15px;
+    border-radius: 5px;
     cursor: pointer;
     font-family: 'Roboto';
     font-size: 18px;
@@ -552,4 +531,21 @@ flex-direction:row;
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
     box-shadow:2px 3px 0px rgba(0, 0, 0, 0.22); ;
     transition: all 0.5s ease;
+}
+
+  /*CSS для кнопки закрытия*/
+  .iw-close {
+    position:absolute;
+    top:10px; 
+    right:10px; 
+    color: #000000; 
+    font-size: 24px; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.iw-close:hover, .iw-close:focus {
+    margin-top: auto;
+    color: #000; 
+    cursor: pointer;
 }
