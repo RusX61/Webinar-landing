@@ -105,10 +105,12 @@ input{
 }
 
 .introTxt{
-    display:inline-block;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 24px;
-    width: 1144px;
-    height: 77px;
+    max-width: 1144px;
+    min-height: 77px;
     font-family: 'RobotoThin';
     font-weight: 100;
     font-size: 21px;
@@ -130,7 +132,6 @@ input{
     width: 312px;
     height: 72px;
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
     border: none;
     cursor: pointer;
     font-family: 'Roboto';
@@ -218,8 +219,8 @@ input{
 }
 
 .textSkills{
-    width: 344px;
-    height: 200px;
+    max-width: 344px;
+    max-height: 200px;
     font-family: 'Roboto';
     color: #4A4A4A;
     text-align: center;
@@ -253,7 +254,7 @@ input{
 
 .optimizationText span{
     max-width: 752px;
-    height: 312px;
+    max-height: 312px;
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 17px;

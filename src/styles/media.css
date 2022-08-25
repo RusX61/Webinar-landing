@@ -33,6 +33,13 @@
     }
 }
 
+@media (max-width: 1134px) {
+    .textSkills{
+        max-width: 300px;
+        max-height: 160px;
+    }
+}
+
 @media (max-width: 1024px) {
       .optimizationText span{
         font-size: 12px;
