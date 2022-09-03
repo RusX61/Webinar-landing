@@ -1,0 +1,16 @@
+footer{
+    padding-top: 56px;
+    width: 100vw;
+    height: 168px;
+    background:#1A1A1A;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #888888;
+}
+
+.underLine{
+    text-decoration-line: underline;
+}

@@ -1,0 +1,250 @@
+
+/* Что вас ждет в нашем интенсиве? */
+
+.intensive{
+    width: 100vw;
+    padding-bottom: 188px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F2F2F2;
+    font-family: 'Roboto';
+}
+
+.intensive__what{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 88px;
+    width: 584px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.intensive__separator{
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 8px;
+    margin-top: 20px;
+    background: #F9BF3B;
+}
+
+.intensive__freeWebinars{
+    text-align: center;
+    margin-top: 52px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    color: #4A4A4A;
+}
+
+.intensive__skills{
+    display: flex;
+    justify-content: center;
+    column-gap: 48px;
+    margin-top: 48px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.intensive__textSkills{
+    max-width: 344px;
+    max-height: 200px;
+    font-family: 'Roboto';
+    color: #4A4A4A;
+    text-align: center;
+}
+
+.intensive__skills img{
+    margin-bottom: 28px;
+}
+
+/* Что такое оптимизация и зачем она нужна? */
+
+.optimization__сontainer{
+    max-width: 1379px;
+    display: flex;
+    max-height: 500px;
+    margin-top: 48px;
+    margin-left: 7.8%;
+    margin-bottom: 74px;
+}
+
+.optimization__girl img{
+    margin-top: 72px;
+}
+
+
+.optimization__text{
+    justify-content:right;
+    margin-left: -200px;
+    
+}
+
+.optimization__text span{
+    max-width: 752px;
+    max-height: 312px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+   
+}
+
+.optimization__text h2{
+    max-width: 772px;
+    height: 32px;
+    margin-top: 60px;
+    padding-bottom: 25px;
+    font-family: 'RobotoBold';
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    color: #299CBD;
+}
+
+.optimization__text b{
+    font-family: 'RobotoBold';
+}
+
+/* По окончании обучения Вы сможете! */
+
+.endOfLearning{
+    background-image: url("../img/second_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.endOfLearning h2{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #EFEFEF;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 88px;
+    margin-top: 0;
+}
+
+.endOfLearning__rectangle{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 220px;
+    height: 8px;
+    margin-top: 20px;
+    background: #F9BF3B;
+
+}
+
+.endOfLearning__results{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    text-align: center;
+    font-family: 'RobotoThin';
+    color: #EFEFEF;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.endOfLearning__skill{
+    width: 232px;
+    margin-bottom: 92px;
+}
+
+.endOfLearning__backCircle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #B4E2FF;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+}
+
+/* Для всех участников интенсива */
+
+.present{
+    width: 100vw;
+    display:block;
+    text-align: center;
+    background: #EFEFEF;
+}
+
+.present__gift{
+   padding-top: 84px;
+   margin-bottom: 44px;
+}
+
+.present__gift__text{
+    max-width: 1160px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -22px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    color: #252525;
+}
+.present .btn{
+    margin-bottom: 88px;
+}
+
+/* Первый вебинар состоится */
+
+.webinar{
+    width: 100vw;
+}
+
+.webinar__firstImg img{
+    display: flex;
+    margin:88px auto 36px auto;
+    justify-content: center;
+}
+
+.webinar__firstWebinar{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #252525;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.webinar__sep{
+    font-family: 'RobotoBold';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+    margin-bottom: 24px;
+}
+
+.webinar__late{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-bottom: 52px;
+}

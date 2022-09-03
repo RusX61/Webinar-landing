@@ -5,30 +5,35 @@
 }
 
 @media (max-width: 1479px) {
-    .optContainer{
+    .optimization__сontainer{
         margin-left: 0;
     }
 }
 
 @media (max-width: 1366px) {
-    .optimizationText{
+    .optimization__text{
       margin-left: -300px; 
       margin-right: 50px; 
+    }
+
+    .optimization__text span{
+        line-height: 26px;
+        font-size: 15px;
     }
 }
 
 @media (max-width: 1280px) {
-    .optContainer{
+    .optimization__сontainer{
         margin-top: 0px;
         margin-left: -80px;
     }
 
-    .optimizationText span{
+    .optimization__text span{
         line-height: 26px;
-        font-size: 17px;
+        font-size: 15px;
     }
 
-    .optimizationText h2{
+    .optimization__text h2{
         font-size: 22px;
     }
 }
@@ -38,15 +43,13 @@
         max-width: 300px;
         max-height: 160px;
     }
-}
 
-@media (max-width: 1024px) {
-      .optimizationText span{
-        font-size: 12px;
+    .optimization__text span{
+        font-size: 15px;
         line-height: 20px;
     }
 
-    .optimizationText h2{
+    .optimization__text h2{
         font-size: 17px;
         margin-bottom: 15px;
     }
